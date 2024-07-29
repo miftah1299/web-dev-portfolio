@@ -1,0 +1,19 @@
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .skills-container {
+        flex-direction: column;
+    }
+    .resume-container {
+        flex-direction: column;
+    }
+    footer {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-column {
+        width: calc(100% - 20px);
+    }
+}
